@@ -1,2 +1,3 @@
 FROM ubuntu:latest
-CMD [ "sleep", "30"]
+ENTRYPOINT [ "sleep", "30" ]
+#CMD [ "sleep", "30"]
